@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="pageKelasBerlangsung2EightVM" type="com.application.logicliberators.modules.pagekelasberlangsung2eight.data.viewmodel.PageKelasBerlangsung2EightVM"/>
+    </data>
+    <FrameLayout android:id="@+id/framePagekelasberl"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStyleindigo_A200">
+        <LinearLayout android:id="@+id/linearColumnarrowleft"
+            android:layout_gravity="top|center"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_6pxh"
+            android:layout_marginStart="@dimen/_7pxh"
+            android:layout_marginTop="@dimen/_20pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_width="match_parent" app:contentInsetStart="0dp">
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearRowarrowleft"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <FrameLayout android:id="@+id/frameButtonback"
+                        android:layout_height="@dimen/_10pxv"
+                        android:layout_marginBottom="@dimen/_8pxv"
+                        android:layout_marginTop="@dimen/_4pxv"
+                        android:layout_width="@dimen/_5pxh" style="@style/groupStylecornerRadius_3">
+                        <ImageView android:id="@+id/imageArrowleft"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_10pxh"
+                            android:layout_width="@dimen/_5pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_arrowleft_black_900"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft_black_900"/>
+                    </FrameLayout>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtKelasBerlangsu"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_32pxh"
+                        android:layout_weight="0.97"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{pageKelasBerlangsung2EightVM.pageKelasBerlangsung2EightModel.txtKelasBerlangsu}"
+                        style="@style/txtPoppinsbold15_1" tools:text="@string/msg_kelas_berlangsu"/>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtDescription"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_16pxv"
+                android:layout_width="match_parent"
+                android:text="@{pageKelasBerlangsung2EightVM.pageKelasBerlangsung2EightModel.txtDescription}"
+                style="@style/txtPoppinssemibold12" tools:text="@string/msg_nama_guru_pus2"/>
+            <ImageView android:id="@+id/imageFrame1888"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_25pxh"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="@dimen/_300pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_frame1888_gray_105"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_frame1888_gray_105"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtSesiberlangsun"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_19pxh"
+                android:layout_marginStart="@dimen/_19pxh"
+                android:layout_marginTop="@dimen/_5pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{pageKelasBerlangsung2EightVM.pageKelasBerlangsung2EightModel.txtSesiberlangsun}"
+                style="@style/txtPoppinsmedium12_1" textUnderline="true" tools:text="@string/msg_sesi_berlangsun2"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtLaporanPembela"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{pageKelasBerlangsung2EightVM.pageKelasBerlangsung2EightModel.txtLaporanPembela}"
+                style="@style/txtPoppinsbold13" tools:text="@string/msg_laporan_pembela"/>
+            <LinearLayout android:id="@+id/linearRowdescriptionOne"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6pxv"
+                android:layout_width="match_parent"
+                android:orientation="horizontal" style="@style/groupStylegray_100_cc1cornerRadius">
+                <TextView android:id="@+id/txtDescriptionOne"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_5pxv"
+                    android:layout_marginStart="@dimen/_8pxh"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_weight="0.98"
+                    android:layout_width="0dp"
+                    android:text="@{pageKelasBerlangsung2EightVM.pageKelasBerlangsung2EightModel.txtDescriptionOne}"
+                    style="@style/txtPoppinsregular12" tools:text="@string/msg_laporan_sesi_2"/>
+                <FrameLayout android:id="@+id/frameButtonback1"
+                    android:layout_height="@dimen/_10pxv"
+                    android:layout_marginBottom="@dimen/_36pxv"
+                    android:layout_marginEnd="@dimen/_25pxh"
+                    android:layout_marginStart="@dimen/_52pxh"
+                    android:layout_marginTop="@dimen/_36pxv"
+                    android:layout_width="@dimen/_5pxh" style="@style/groupStylecornerRadius_3">
+                    <ImageView android:id="@+id/imageArrowleftOne"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_10pxh"
+                        android:layout_width="@dimen/_5pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_arrowleft_black_900"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft_black_900"/>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearRowdescriptionTwo"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent"
+                android:orientation="horizontal" style="@style/groupStylegray_100_cc1cornerRadius">
+                <TextView android:id="@+id/txtDescriptionTwo"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_5pxv"
+                    android:layout_marginStart="@dimen/_8pxh"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_weight="0.98"
+                    android:layout_width="0dp"
+                    android:text="@{pageKelasBerlangsung2EightVM.pageKelasBerlangsung2EightModel.txtDescriptionTwo}"
+                    style="@style/txtPoppinsregular12" tools:text="@string/msg_laporan_sesi_1"/>
+                <FrameLayout android:id="@+id/frameButtonback2"
+                    android:layout_height="@dimen/_10pxv"
+                    android:layout_marginBottom="@dimen/_36pxv"
+                    android:layout_marginEnd="@dimen/_25pxh"
+                    android:layout_marginStart="@dimen/_52pxh"
+                    android:layout_marginTop="@dimen/_36pxv"
+                    android:layout_width="@dimen/_5pxh" style="@style/groupStylecornerRadius_3">
+                    <ImageView android:id="@+id/imageArrowleftTwo"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_10pxh"
+                        android:layout_width="@dimen/_5pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_arrowleft_black_900"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft_black_900"/>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

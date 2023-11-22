@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="landingPageVM" type="com.application.logicliberators.modules.landingpage.data.viewmodel.LandingPageVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearLandingPage"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_100">
+        <View
+            android:background="@drawable/rectangle_bg_bluegray_100_72_radius_65"
+            android:id="@+id/viewLogo"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_130pxh"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_105pxv" android:layout_width="@dimen/_130pxh"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtAppName"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{landingPageVM.landingPageModel.txtAppName}"
+            style="@style/txtPoppinsbold30" tools:text="@string/lbl_males"/>
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtDescription"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_60pxv"
+            android:layout_width="match_parent"
+            android:text="@{landingPageVM.landingPageModel.txtDescription}"
+            style="@style/txtPoppinssemibold12" tools:text="@string/msg_selamat_datang"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnStart"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_38pxv"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_110pxv"
+            android:layout_width="@dimen/_150pxh"
+            android:paddingBottom="@dimen/_9pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_9pxv" android:singleLine="true"
+            android:text="@string/lbl_start" android:textAllCaps="false"
+            style="@style/btnSolidRounded_1" tools:text="@string/lbl_start"/>
+    </LinearLayout>
+</layout>

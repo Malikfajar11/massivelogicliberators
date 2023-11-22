@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="homepageOrtuContainerVM" type="com.application.logicliberators.modules.homepageortucontainer.data.viewmodel.HomepageOrtuContainerVM"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearColumngroup130"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleindigo_A200">
+        <FrameLayout android:id="@+id/fragmentContainer"
+            android:layout_height="match_parent"
+            android:layout_weight="1" android:layout_width="match_parent"/>
+        <FrameLayout android:id="@+id/frameBottombar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" style="@style/groupStyleindigo_1">
+            <LinearLayout android:id="@+id/linearRowhome"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_27pxv"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <FrameLayout android:id="@+id/frameMingcutehome5"
+                    android:layout_height="@dimen/_33pxv"
+                    android:layout_width="@dimen/_33pxh" style="@style/groupStyleindigo_2">
+                    <ImageView android:id="@+id/imageHome"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_25pxh"
+                        android:layout_marginBottom="@dimen/_4pxv"
+                        android:layout_marginTop="@dimen/_3pxv"
+                        android:layout_width="@dimen/_27pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_home"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_home"/>
+                </FrameLayout>
+                <ImageView android:id="@+id/imageRefresh"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_27pxh"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_marginStart="@dimen/_58pxh"
+                    android:layout_marginTop="@dimen/_2pxv"
+                    android:layout_width="@dimen/_27pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_refresh"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_refresh"/>
+                <ImageView android:id="@+id/imageLock"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_27pxh"
+                    android:layout_marginBottom="@dimen/_4pxv"
+                    android:layout_marginStart="@dimen/_62pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_width="@dimen/_27pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_lock"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_lock"/>
+                <ImageView android:id="@+id/imageUser"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_22pxh"
+                    android:layout_marginBottom="@dimen/_5pxv"
+                    android:layout_marginEnd="@dimen/_28pxh"
+                    android:layout_marginStart="@dimen/_62pxh"
+                    android:layout_marginTop="@dimen/_5pxv"
+                    android:layout_width="@dimen/_22pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_user"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_user"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

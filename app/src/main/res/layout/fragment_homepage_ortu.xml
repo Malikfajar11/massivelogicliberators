@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="homepageOrtuVM" type="com.application.logicliberators.modules.homepageortu.data.viewmodel.HomepageOrtuVM"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearColumngroup130"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleindigo_A200">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarToolbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" app:contentInsetStart="0dp">
+            <FrameLayout android:id="@+id/frameStackselamatdatang"
+                android:layout_height="@dimen/_120pxv" android:layout_width="match_parent">
+                <FrameLayout android:id="@+id/frameStackgroup130"
+                    android:layout_gravity="top|start"
+                    android:layout_height="@dimen/_95pxv"
+                    android:layout_marginBottom="@dimen/_10pxv" android:layout_width="match_parent">
+                    <ImageView android:id="@+id/imageGroup130"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_95pxh"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_group130}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_group130"/>
+                    <FrameLayout android:id="@+id/frameStackgroup131"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_95pxv" android:layout_width="match_parent">
+                        <ImageView android:id="@+id/imageGroup131"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_95pxh"
+                            android:layout_width="match_parent"
+                            android:scaleType="fitXY"
+                            imageRes="@{@drawable/img_group131}"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_group131"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtBeateacher"
+                            android:layout_gravity="top|end"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_10pxv"
+                            android:layout_marginEnd="@dimen/_18pxh"
+                            android:layout_marginStart="@dimen/_18pxh"
+                            android:layout_marginTop="@dimen/_9pxv"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{homepageOrtuVM.homepageOrtuModel.txtBeateacher}"
+                            style="@style/txtPoppinsmediumitalic11"
+                            textUnderline="true" tools:text="@string/lbl_be_a_teacher"/>
+                    </FrameLayout>
+                </FrameLayout>
+                <LinearLayout
+                    android:id="@+id/linearColumnselamatdatang"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_marginEnd="@dimen/_80pxh"
+                    android:layout_marginStart="@dimen/_80pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="wrap_content" android:orientation="vertical">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtSelamatdatang"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{homepageOrtuVM.homepageOrtuModel.txtSelamatdatang}"
+                        style="@style/txtPoppinssemibold12" tools:text="@string/lbl_selamat_datang"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtSriIrawati"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_5pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{homepageOrtuVM.homepageOrtuModel.txtSriIrawati}"
+                        style="@style/txtPoppinsbold12" tools:text="@string/lbl_sri_irawati"/>
+                </LinearLayout>
+                <ImageView android:id="@+id/imageFotoprofil"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="@dimen/_53pxh"
+                    android:layout_marginEnd="@dimen/_17pxh"
+                    android:layout_marginStart="@dimen/_17pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="@dimen/_53pxh"
+                    android:scaleType="centerCrop" circular="@{true}"
+                    imageRes="@{@drawable/img_fotoprofil}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_fotoprofil"/>
+            </FrameLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <androidx.core.widget.NestedScrollView
+            android:clipToPadding="false" android:fillViewport="true"
+            android:id="@+id/scrollViewScrollview"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_8pxv"
+            android:layout_weight="1" android:layout_width="match_parent">
+            <LinearLayout android:id="@+id/linearHomepageortu"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtLanguage"
+                    android:layout_gravity="start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_21pxh"
+                    android:layout_marginStart="@dimen/_21pxh"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{homepageOrtuVM.homepageOrtuModel.txtLanguage}"
+                    style="@style/txtInterbold13" tools:text="@string/lbl_cari"/>
+                <EditText
+                    android:background="@drawable/rectangle_bg_gray_100_a2_radius_8"
+                    android:ellipsize="end"
+                    android:hint="@string/lbl_e_g_matematika"
+                    android:id="@+id/etFrameOne"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_11pxh"
+                    android:layout_marginStart="@dimen/_11pxh"
+                    android:layout_marginTop="@dimen/_5pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_8pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_18pxh"
+                    android:paddingTop="@dimen/_11pxv"
+                    android:singleLine="true"
+                    android:text="@={homepageOrtuVM.homepageOrtuModel.etFrameOneValue}"
+                    android:textColorHint="@color/black_900"
+                    style="@style/etSolidRounded" tools:ignore="Autofill"/>
+                <FrameLayout android:gravity="start"
+                    android:id="@+id/frameStackrectangle134"
+                    android:layout_height="@dimen/_750pxv"
+                    android:layout_marginTop="@dimen/_1pxv" android:layout_width="match_parent">
+                    <ImageView android:id="@+id/imageRectangle134"
+                        android:layout_gravity="top|start"
+                        android:layout_height="@dimen/_515pxv"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        cornerRadius="@{@dimen/_35pxh}"
+                        imageRes="@{@drawable/img_rectangle134}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle134"/>
+                    <LinearLayout
+                        android:id="@+id/linearColumnframethree"
+                        android:layout_gravity="top|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_35pxv"
+                        android:layout_marginTop="@dimen/_35pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical" style="@style/groupStylegray_200cornerRadius">
+                        <Spinner
+                            android:background="@drawable/layer_list_bg_indigo_a200_radius_5"
+                            android:gravity="start"
+                            android:id="@+id/spinnerFrameThree"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_499pxv"
+                            android:layout_marginEnd="@dimen/_18pxh"
+                            android:layout_marginStart="@dimen/_18pxh"
+                            android:layout_marginTop="@dimen/_10pxv"
+                            android:layout_width="match_parent" tools:listitem="@layout/spinner_item"/>
+                    </LinearLayout>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtDaftarGuruKam"
+                        android:layout_gravity="top|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_19pxv"
+                        android:layout_marginEnd="@dimen/_96pxh"
+                        android:layout_marginStart="@dimen/_96pxh"
+                        android:layout_marginTop="@dimen/_19pxv"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{homepageOrtuVM.homepageOrtuModel.txtDaftarGuruKam}"
+                        style="@style/txt" tools:text="@string/msg_daftar_guru_kam"/>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerDaftarcardgur"
+                        android:layout_gravity="bottom|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:nestedScrollingEnabled="false"
+                        android:orientation="vertical"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        itemSpace="@{@dimen/_7pxh}" tools:itemCount="4" tools:listitem="@layout/row_daftarcardgur"/>
+                </FrameLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</layout>

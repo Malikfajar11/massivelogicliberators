@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="daftarMengajarVM" type="com.application.logicliberators.modules.daftarmengajar.data.viewmodel.DaftarMengajarVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linearColumnarrowleft"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_23pxv"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleindigo_A200">
+        <androidx.appcompat.widget.Toolbar android:gravity="start"
+            android:id="@+id/toolbarToolbar"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_37pxh"
+            android:layout_marginStart="@dimen/_37pxh"
+            android:layout_width="match_parent" app:contentInsetStart="0dp">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearRowarrowleft"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <FrameLayout android:id="@+id/frameButtonback"
+                    android:layout_height="@dimen/_10pxv"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_marginTop="@dimen/_3pxv"
+                    android:layout_width="@dimen/_5pxh" style="@style/groupStylecornerRadius_3">
+                    <ImageView android:id="@+id/imageArrowleft"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_10pxh"
+                        android:layout_width="@dimen/_5pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_arrowleft_black_900"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft_black_900"/>
+                </FrameLayout>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtDaftarMenjadi"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_47pxh"
+                    android:layout_weight="0.97"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{daftarMengajarVM.daftarMengajarModel.txtDaftarMenjadi}"
+                    style="@style/txtPoppinsbold16" tools:text="@string/msg_daftar_menjadi"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearColumn"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16pxv"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStyleindigo_A200">
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearColumnuploaddokumen"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylegray_100_f4cornerRadius">
+                <FrameLayout android:id="@+id/frameStackuploaddokumen"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_183pxv"
+                    android:layout_marginEnd="@dimen/_9pxh"
+                    android:layout_marginStart="@dimen/_11pxh"
+                    android:layout_marginTop="@dimen/_15pxv" android:layout_width="@dimen/_326pxh">
+                    <LinearLayout android:id="@+id/linearUploaddokumen"
+                        android:layout_gravity="bottom|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_1pxh"
+                        android:layout_marginStart="@dimen/_1pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal" style="@style/groupStylegray_301cornerRadius">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtUploadDokumen"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_5pxv"
+                            android:layout_marginStart="@dimen/_15pxh"
+                            android:layout_marginTop="@dimen/_13pxv"
+                            android:layout_weight="0.88"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{daftarMengajarVM.daftarMengajarModel.txtUploadDokumen}"
+                            style="@style/txtPoppinssemibold13" tools:text="@string/lbl_upload_dokumen"/>
+                        <ImageView android:id="@+id/imageUpload"
+                            android:layout_height="@dimen/_16pxh"
+                            android:layout_marginBottom="@dimen/_9pxv"
+                            android:layout_marginEnd="@dimen/_19pxh"
+                            android:layout_marginStart="@dimen/_152pxh"
+                            android:layout_marginTop="@dimen/_14pxv"
+                            android:layout_width="@dimen/_16pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_upload"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_upload"/>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearUploaddokumen1"
+                        android:layout_gravity="top|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_61pxv"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_marginTop="@dimen/_61pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal" style="@style/groupStylegray_301cornerRadius">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtUploadDokumenOne"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_5pxv"
+                            android:layout_marginStart="@dimen/_15pxh"
+                            android:layout_marginTop="@dimen/_13pxv"
+                            android:layout_weight="0.88"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{daftarMengajarVM.daftarMengajarModel.txtUploadDokumenOne}"
+                            style="@style/txtPoppinssemibold13" tools:text="@string/lbl_upload_dokumen"/>
+                        <ImageView android:id="@+id/imageUploadOne"
+                            android:layout_height="@dimen/_16pxh"
+                            android:layout_marginBottom="@dimen/_9pxv"
+                            android:layout_marginEnd="@dimen/_19pxh"
+                            android:layout_marginStart="@dimen/_152pxh"
+                            android:layout_marginTop="@dimen/_14pxv"
+                            android:layout_width="@dimen/_16pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_upload"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_upload"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/linearColumnjudulinput"
+                        android:layout_gravity="top|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical" style="@style/groupStylelime_600">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtJudulInput"
+                            android:layout_gravity="start"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_10pxv"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{daftarMengajarVM.daftarMengajarModel.txtJudulInput}"
+                            style="@style/txtInterbold13" tools:text="@string/msg_pendidikan_tera"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="start"
+                            android:id="@+id/txtFrameOne"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5pxv"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="@dimen/_8pxv"
+                            android:paddingStart="@dimen/_18pxh"
+                            android:paddingTop="@dimen/_11pxv"
+                            android:singleLine="true"
+                            android:text="@{daftarMengajarVM.daftarMengajarModel.txtFrameOne}"
+                            style="@style/txtSolidRounded_2" tools:text="@string/msg_pastikan_data"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/linearColumnjudulinputOne"
+                        android:layout_gravity="bottom|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_25pxv"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_marginTop="@dimen/_25pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical" style="@style/groupStylelime_600">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtJudulInputOne"
+                            android:layout_gravity="start"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_11pxv"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{daftarMengajarVM.daftarMengajarModel.txtJudulInputOne}"
+                            style="@style/txtInterbold13" tools:text="@string/msg_sertifikat_pend"/>
+                        <EditText
+                            android:background="@drawable/rectangle_bg_bluegray_100_a2_radius_8"
+                            android:ellipsize="end"
+                            android:hint="@string/msg_pastikan_data2"
+                            android:id="@+id/etFrameOneOne"
+                            android:inputType="text"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4pxv"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="@dimen/_8pxv"
+                            android:paddingEnd="@dimen/_30pxh"
+                            android:paddingStart="@dimen/_18pxh"
+                            android:paddingTop="@dimen/_11pxv"
+                            android:singleLine="true"
+                            android:text="@={daftarMengajarVM.daftarMengajarModel.etFrameOneOneValue}"
+                            android:textColorHint="@color/black_900"
+                            style="@style/etSolidRounded_1" tools:ignore="Autofill"/>
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout
+                    android:id="@+id/frameStackuploaddokumenTwo"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_80pxv"
+                    android:layout_marginEnd="@dimen/_9pxh"
+                    android:layout_marginStart="@dimen/_11pxh"
+                    android:layout_marginTop="@dimen/_4pxv" android:layout_width="@dimen/_324pxh">
+                    <LinearLayout android:id="@+id/linearUploaddokumen2"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal" style="@style/groupStylegray_301cornerRadius">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtUploadDokumenTwo"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_5pxv"
+                            android:layout_marginStart="@dimen/_15pxh"
+                            android:layout_marginTop="@dimen/_13pxv"
+                            android:layout_weight="0.88"
+                            android:layout_width="0dp"
+                            android:singleLine="true"
+                            android:text="@{daftarMengajarVM.daftarMengajarModel.txtUploadDokumenTwo}"
+                            style="@style/txtPoppinssemibold13" tools:text="@string/lbl_upload_dokumen"/>
+                        <ImageView android:id="@+id/imageUploadTwo"
+                            android:layout_height="@dimen/_16pxh"
+                            android:layout_marginBottom="@dimen/_9pxv"
+                            android:layout_marginEnd="@dimen/_19pxh"
+                            android:layout_marginStart="@dimen/_152pxh"
+                            android:layout_marginTop="@dimen/_14pxv"
+                            android:layout_width="@dimen/_16pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_upload"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_upload"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/linearColumnjudulinputTwo"
+                        android:layout_gravity="top|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical" style="@style/groupStylelime_600">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtJudulInputTwo"
+                            android:layout_gravity="start"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_10pxv"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{daftarMengajarVM.daftarMengajarModel.txtJudulInputTwo}"
+                            style="@style/txtInterbold13" tools:text="@string/msg_curriculum_vita"/>
+                        <EditText
+                            android:background="@drawable/rectangle_bg_bluegray_100_a2_radius_8"
+                            android:ellipsize="end"
+                            android:hint="@string/msg_pastikan_data3"
+                            android:id="@+id/etFrameOneTwo"
+                            android:inputType="text"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5pxv"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="@dimen/_8pxv"
+                            android:paddingEnd="@dimen/_30pxh"
+                            android:paddingStart="@dimen/_18pxh"
+                            android:paddingTop="@dimen/_11pxv"
+                            android:singleLine="true"
+                            android:text="@={daftarMengajarVM.daftarMengajarModel.etFrameOneTwoValue}"
+                            android:textColorHint="@color/black_900"
+                            style="@style/etSolidRounded_1" tools:ignore="Autofill"/>
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout android:id="@+id/frameStackjudulinputThree"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_152pxv"
+                    android:layout_marginEnd="@dimen/_9pxh"
+                    android:layout_marginStart="@dimen/_11pxh"
+                    android:layout_marginTop="@dimen/_5pxv" android:layout_width="@dimen/_326pxh">
+                    <LinearLayout
+                        android:id="@+id/linearColumnjudulinputThree"
+                        android:layout_gravity="bottom|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical" style="@style/groupStylelime_600">
+                        <TextView android:ellipsize="end"
+                            android:gravity="start"
+                            android:id="@+id/txtJudulInputThree"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_11pxv"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:text="@{daftarMengajarVM.daftarMengajarModel.txtJudulInputThree}"
+                            style="@style/txtInterbold13" tools:text="@string/msg_personal_brandi2"/>
+                        <FrameLayout
+                            android:id="@+id/frameStackframeoneThree"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_39pxv"
+                            android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_324pxh">
+                            <View
+                                android:background="@drawable/rectangle_bg_bluegray_100_a2_radius_8"
+                                android:id="@+id/viewFrameOneThree"
+                                android:layout_gravity="bottom|start"
+                                android:layout_height="@dimen/_35pxv"
+                                android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_324pxh"/>
+                            <EditText
+                                android:background="@drawable/rectangle_bg_gray_301_radius_5"
+                                android:drawableEnd="@drawable/img_upload"
+                                android:drawablePadding="@dimen/_30pxh"
+                                android:ellipsize="end"
+                                android:hint="@string/msg_upload_dokumen"
+                                android:id="@+id/etUploaddokumenThree"
+                                android:inputType="text"
+                                android:layout_gravity="start"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:paddingBottom="@dimen/_6pxv"
+                                android:paddingEnd="@dimen/_19pxh"
+                                android:paddingStart="@dimen/_15pxh"
+                                android:paddingTop="@dimen/_12pxv"
+                                android:singleLine="true"
+                                android:text="@={daftarMengajarVM.daftarMengajarModel.etUploaddokumenThreeValue}"
+                                android:textColorHint="@color/black_900"
+                                style="@style/etSolidRounded_3" tools:ignore="Autofill"/>
+                        </FrameLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/linearColumnjudulinputFour"
+                        android:layout_gravity="top|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical" style="@style/groupStylelime_600">
+                        <TextView android:ellipsize="end"
+                            android:gravity="start"
+                            android:id="@+id/txtJudulInputFour"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_11pxv"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:text="@{daftarMengajarVM.daftarMengajarModel.txtJudulInputFour}"
+                            style="@style/txtInterbold13" tools:text="@string/msg_surat_aktif_kul"/>
+                        <View
+                            android:background="@drawable/rectangle_bg_bluegray_100_a2_radius_8"
+                            android:id="@+id/viewFrameOneFour"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_35pxv"
+                            android:layout_marginTop="@dimen/_4pxv" android:layout_width="@dimen/_324pxh"/>
+                    </LinearLayout>
+                    <EditText
+                        android:background="@drawable/rectangle_bg_gray_301_radius_5"
+                        android:drawableEnd="@drawable/img_upload"
+                        android:drawablePadding="@dimen/_30pxh"
+                        android:ellipsize="end"
+                        android:hint="@string/lbl_upload_dokumen2"
+                        android:id="@+id/etUploaddokumenFour"
+                        android:inputType="text"
+                        android:layout_gravity="top|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_53pxv"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_marginTop="@dimen/_53pxv"
+                        android:layout_width="match_parent"
+                        android:paddingBottom="@dimen/_5pxv"
+                        android:paddingEnd="@dimen/_19pxh"
+                        android:paddingStart="@dimen/_15pxh"
+                        android:paddingTop="@dimen/_13pxv"
+                        android:singleLine="true"
+                        android:text="@={daftarMengajarVM.daftarMengajarModel.etUploaddokumenFourValue}"
+                        android:textColorHint="@color/black_900"
+                        style="@style/etSolidRounded_3" tools:ignore="Autofill"/>
+                </FrameLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnDaftar"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_28pxv"
+                    android:layout_marginBottom="@dimen/_20pxv"
+                    android:layout_marginEnd="@dimen/_11pxh"
+                    android:layout_marginStart="@dimen/_11pxh"
+                    android:layout_marginTop="@dimen/_72pxv"
+                    android:layout_width="@dimen/_93pxh"
+                    android:paddingBottom="@dimen/_6pxv"
+                    android:paddingEnd="@dimen/_26pxh"
+                    android:paddingStart="@dimen/_26pxh"
+                    android:paddingTop="@dimen/_6pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_daftar"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded_8" tools:text="@string/lbl_daftar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

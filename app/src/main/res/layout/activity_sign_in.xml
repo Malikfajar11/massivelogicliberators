@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="signInVM" type="com.application.logicliberators.modules.signin.data.viewmodel.SignInVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnmasuk"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_50pxv"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleindigo_A200">
+        <androidx.appcompat.widget.Toolbar
+            android:gravity="center_horizontal"
+            android:id="@+id/toolbarToolbar"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_11pxh"
+            android:layout_marginStart="@dimen/_11pxh"
+            android:layout_width="match_parent" app:contentInsetStart="0dp">
+            <LinearLayout android:id="@+id/linearRowmasuk"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal" style="@style/groupStyle">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtMasuk"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_marginStart="@dimen/_26pxh"
+                    android:layout_marginTop="@dimen/_9pxv"
+                    android:layout_weight="0.34"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{signInVM.signInModel.txtMasuk}"
+                    style="@style/txtRobotoromanbold20_1" tools:text="@string/lbl_masuk"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtAppName"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_marginEnd="@dimen/_26pxh"
+                    android:layout_marginStart="@dimen/_95pxh"
+                    android:layout_marginTop="@dimen/_9pxv"
+                    android:layout_weight="0.66"
+                    android:layout_width="0dp" android:singleLine="true"
+                    android:text="@{signInVM.signInModel.txtAppName}"
+                    style="@style/txtIntersemibold20" tools:text="@string/lbl_daftar_akun"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearSignin"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStyleindigo_A200">
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearColumniconemail"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylegray_2">
+                <FrameLayout android:id="@+id/frameStackiconemail"
+                    android:layout_gravity="end"
+                    android:layout_height="@dimen/_55pxv"
+                    android:layout_marginEnd="@dimen/_4pxh"
+                    android:layout_marginStart="@dimen/_20pxh"
+                    android:layout_marginTop="@dimen/_63pxv" android:layout_width="@dimen/_322pxh">
+                    <ImageView android:id="@+id/imageIconemail"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="@dimen/_17pxh"
+                        android:layout_marginBottom="@dimen/_9pxv"
+                        android:layout_marginEnd="@dimen/_19pxh"
+                        android:layout_marginStart="@dimen/_19pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="@dimen/_22pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_iconemail"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_iconemail"/>
+                    <LinearLayout
+                        android:id="@+id/linearColumnjudulinput"
+                        android:layout_gravity="start"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtJudulInput"
+                            android:layout_gravity="start"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{signInVM.signInModel.txtJudulInput}"
+                            style="@style/txtIntersemibold13" tools:text="@string/msg_e_mail_nomor"/>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:id="@+id/btnMasukkanEmail"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4pxv"
+                            android:layout_width="match_parent"
+                            android:paddingBottom="@dimen/_10pxv"
+                            android:paddingEnd="@dimen/_30pxh"
+                            android:paddingStart="@dimen/_30pxh"
+                            android:paddingTop="@dimen/_10pxv"
+                            android:singleLine="true"
+                            android:text="@string/lbl_masukkan_email"
+                            android:textAllCaps="false"
+                            style="@style/btnSolidRounded_2" tools:text="@string/lbl_masukkan_email"/>
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout android:id="@+id/frameStackiconpassword"
+                    android:layout_gravity="end"
+                    android:layout_height="@dimen/_72pxv"
+                    android:layout_marginEnd="@dimen/_4pxh"
+                    android:layout_marginStart="@dimen/_20pxh"
+                    android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_322pxh">
+                    <ImageView android:id="@+id/imageIconpassword"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="@dimen/_20pxh"
+                        android:layout_marginBottom="@dimen/_23pxv"
+                        android:layout_marginEnd="@dimen/_16pxh"
+                        android:layout_marginStart="@dimen/_16pxh"
+                        android:layout_marginTop="@dimen/_23pxv"
+                        android:layout_width="@dimen/_26pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_iconpassword"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_iconpassword"/>
+                    <LinearLayout
+                        android:id="@+id/linearColumnjudulinputOne"
+                        android:layout_gravity="top|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_width="match_parent" android:orientation="vertical">
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtJudulInputOne"
+                            android:layout_gravity="start"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_width="wrap_content"
+                            android:singleLine="true"
+                            android:text="@{signInVM.signInModel.txtJudulInputOne}"
+                            style="@style/txtIntersemibold13" tools:text="@string/lbl_password"/>
+                        <LinearLayout
+                            android:gravity="center_horizontal"
+                            android:id="@+id/linearColumninputtext"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5pxv"
+                            android:layout_width="match_parent"
+                            android:orientation="vertical" style="@style/groupStylebluegray_100_a2cornerRadius">
+                            <TextView android:ellipsize="end"
+                                android:gravity="start"
+                                android:id="@+id/txtInputText"
+                                android:layout_height="match_parent"
+                                android:layout_marginBottom="@dimen/_8pxv"
+                                android:layout_marginEnd="@dimen/_61pxh"
+                                android:layout_marginStart="@dimen/_61pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@{signInVM.signInModel.txtInputText}"
+                                style="@style/txtInterthin12" tools:text="@string/lbl_input_text"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/linearColumnnama"
+                        android:layout_gravity="bottom|start"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical" style="@style/groupStylecornerRadius_1">
+                        <TextView android:ellipsize="end"
+                            android:gravity="start"
+                            android:id="@+id/txtNama"
+                            android:layout_height="match_parent"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:text="@{signInVM.signInModel.txtNama}"
+                            style="@style/txtPoppinslight12" tools:text="@string/msg_lupa_kata_sandi"/>
+                    </LinearLayout>
+                </FrameLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnMasukOne"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_38pxv"
+                    android:layout_marginEnd="@dimen/_20pxh"
+                    android:layout_marginStart="@dimen/_20pxh"
+                    android:layout_marginTop="@dimen/_36pxv"
+                    android:layout_width="@dimen/_150pxh"
+                    android:paddingBottom="@dimen/_9pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_9pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_masuk"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded_1" tools:text="@string/lbl_masuk"/>
+                <LinearLayout android:gravity="center_horizontal"
+                    android:id="@+id/linearColumnlinethree"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_20pxh"
+                    android:layout_marginStart="@dimen/_20pxh"
+                    android:layout_marginTop="@dimen/_42pxv"
+                    android:layout_width="match_parent" android:orientation="vertical">
+                    <LinearLayout android:id="@+id/linearRowlinethree"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent" android:orientation="horizontal">
+                        <View android:background="@color/indigo_A200"
+                            android:id="@+id/lineLineThree"
+                            android:layout_height="@dimen/_1pxv"
+                            android:layout_marginBottom="@dimen/_8pxv"
+                            android:layout_marginTop="@dimen/_7pxv"
+                            android:layout_weight="0.26" android:layout_width="0dp"/>
+                        <TextView android:ellipsize="end"
+                            android:id="@+id/txtAtaumasukdeng"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_11pxh"
+                            android:layout_weight="0.48"
+                            android:layout_width="0dp"
+                            android:lineSpacingExtra="@dimen/_3pxh"
+                            android:singleLine="true"
+                            android:text="@{signInVM.signInModel.txtAtaumasukdeng}"
+                            style="@style/txtInterbold14" tools:text="@string/msg_atau_masuk_deng"/>
+                        <View android:background="@color/indigo_A200"
+                            android:id="@+id/lineLineFour"
+                            android:layout_height="@dimen/_1pxv"
+                            android:layout_marginBottom="@dimen/_8pxv"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_7pxv"
+                            android:layout_weight="0.26" android:layout_width="0dp"/>
+                    </LinearLayout>
+                    <FrameLayout android:id="@+id/frameStackgoogle"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="@dimen/_50pxv"
+                        android:layout_marginEnd="@dimen/_81pxh"
+                        android:layout_marginStart="@dimen/_81pxh"
+                        android:layout_marginTop="@dimen/_16pxv"
+                        android:layout_width="@dimen/_130pxh" style="@style/groupStylewhite_A700cornerRadius">
+                        <ImageView android:id="@+id/imageGoogle"
+                            android:layout_gravity="top|start"
+                            android:layout_height="@dimen/_21pxh"
+                            android:layout_marginBottom="@dimen/_10pxv"
+                            android:layout_marginEnd="@dimen/_50pxh"
+                            android:layout_marginStart="@dimen/_50pxh"
+                            android:layout_marginTop="@dimen/_9pxv"
+                            android:layout_width="@dimen/_22pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_google"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_google"/>
+                    </FrameLayout>
+                </LinearLayout>
+                <TextView android:ellipsize="end"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/txtMasukAkunRefe"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_20pxv"
+                    android:layout_marginEnd="@dimen/_20pxh"
+                    android:layout_marginStart="@dimen/_20pxh"
+                    android:layout_marginTop="@dimen/_42pxv"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{signInVM.signInModel.txtMasukAkunRefe}"
+                    style="@style/txtInterregular12" tools:text="@string/msg_belum_punya_aku"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

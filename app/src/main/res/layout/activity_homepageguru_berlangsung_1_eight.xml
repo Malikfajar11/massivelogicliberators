@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="homepageguruBerlangsung1EightVM" type="com.application.logicliberators.modules.homepageguruberlangsung1eight.data.viewmodel.HomepageguruBerlangsung1EightVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameHomepageguru"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStyleindigo_A200">
+        <LinearLayout android:id="@+id/linearColumnarrowleft"
+            android:layout_gravity="top|center"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_6pxh"
+            android:layout_marginStart="@dimen/_7pxh"
+            android:layout_marginTop="@dimen/_20pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_16pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_width="match_parent" app:contentInsetStart="0dp">
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearRowarrowleft"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <FrameLayout android:id="@+id/frameButtonback"
+                        android:layout_height="@dimen/_10pxv"
+                        android:layout_marginBottom="@dimen/_8pxv"
+                        android:layout_marginTop="@dimen/_4pxv"
+                        android:layout_width="@dimen/_5pxh" style="@style/groupStylecornerRadius_3">
+                        <ImageView android:id="@+id/imageArrowleft"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_10pxh"
+                            android:layout_width="@dimen/_5pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_arrowleft_black_900"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft_black_900"/>
+                    </FrameLayout>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtKelasBerlangsu"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_32pxh"
+                        android:layout_weight="0.97"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{homepageguruBerlangsung1EightVM.homepageguruBerlangsung1EightModel.txtKelasBerlangsu}"
+                        style="@style/txtPoppinsbold15_1" tools:text="@string/msg_kelas_berlangsu"/>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtDescription"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_16pxv"
+                android:layout_width="match_parent"
+                android:text="@{homepageguruBerlangsung1EightVM.homepageguruBerlangsung1EightModel.txtDescription}"
+                style="@style/txtPoppinssemibold12_2" tools:text="@string/msg_nama_ortu_sr"/>
+            <ImageView android:id="@+id/imageFrame1888"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_25pxh"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="@dimen/_305pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_frame1888"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_frame1888"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtLaporansesite"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_19pxh"
+                android:layout_marginStart="@dimen/_19pxh"
+                android:layout_marginTop="@dimen/_5pxv"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@{homepageguruBerlangsung1EightVM.homepageguruBerlangsung1EightModel.txtLaporansesite}"
+                style="@style/txtPoppinsmedium12_1" textUnderline="true" tools:text="@string/msg_laporan_sesi_te"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtLaporanPembela"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{homepageguruBerlangsung1EightVM.homepageguruBerlangsung1EightModel.txtLaporanPembela}"
+                style="@style/txtPoppinsbold13" tools:text="@string/msg_laporan_pembela"/>
+            <LinearLayout android:gravity="end"
+                android:id="@+id/linearColumndescriptionOne"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6pxv"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStyleindigo_100cornerRadius">
+                <LinearLayout android:id="@+id/linearRowdescriptionOne"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal" style="@style/groupStylegray_4">
+                    <TextView android:id="@+id/txtDescriptionOne"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_5pxv"
+                        android:layout_marginStart="@dimen/_8pxh"
+                        android:layout_marginTop="@dimen/_4pxv"
+                        android:layout_weight="0.98"
+                        android:layout_width="0dp"
+                        android:text="@{homepageguruBerlangsung1EightVM.homepageguruBerlangsung1EightModel.txtDescriptionOne}"
+                        style="@style/txtPoppinsregular12" tools:text="@string/msg_laporan_sesi_2"/>
+                    <FrameLayout android:id="@+id/frameButtonback1"
+                        android:layout_height="@dimen/_10pxv"
+                        android:layout_marginBottom="@dimen/_36pxv"
+                        android:layout_marginEnd="@dimen/_25pxh"
+                        android:layout_marginStart="@dimen/_52pxh"
+                        android:layout_marginTop="@dimen/_36pxv"
+                        android:layout_width="@dimen/_5pxh" style="@style/groupStylecornerRadius_3">
+                        <ImageView android:id="@+id/imageArrowleftOne"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_10pxh"
+                            android:layout_width="@dimen/_5pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_arrowleft_black_900"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft_black_900"/>
+                    </FrameLayout>
+                </LinearLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnMenungguKonfirmasi"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_7pxv"
+                    android:layout_marginEnd="@dimen/_5pxh"
+                    android:layout_marginStart="@dimen/_164pxh"
+                    android:layout_marginTop="@dimen/_7pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_6pxv"
+                    android:paddingEnd="@dimen/_11pxh"
+                    android:paddingStart="@dimen/_11pxh"
+                    android:paddingTop="@dimen/_6pxv"
+                    android:singleLine="true"
+                    android:text="@string/msg_menunggu_konfir"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded_7" tools:text="@string/msg_menunggu_konfir"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearRowdescriptionTwo"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent"
+                android:orientation="horizontal" style="@style/groupStylegray_4">
+                <TextView android:id="@+id/txtDescriptionTwo"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_5pxv"
+                    android:layout_marginStart="@dimen/_8pxh"
+                    android:layout_marginTop="@dimen/_4pxv"
+                    android:layout_weight="0.98"
+                    android:layout_width="0dp"
+                    android:text="@{homepageguruBerlangsung1EightVM.homepageguruBerlangsung1EightModel.txtDescriptionTwo}"
+                    style="@style/txtPoppinsregular12" tools:text="@string/msg_laporan_sesi_1"/>
+                <FrameLayout android:id="@+id/frameButtonback2"
+                    android:layout_height="@dimen/_10pxv"
+                    android:layout_marginBottom="@dimen/_36pxv"
+                    android:layout_marginEnd="@dimen/_25pxh"
+                    android:layout_marginStart="@dimen/_52pxh"
+                    android:layout_marginTop="@dimen/_36pxv"
+                    android:layout_width="@dimen/_5pxh" style="@style/groupStylecornerRadius_3">
+                    <ImageView android:id="@+id/imageArrowleftTwo"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_10pxh"
+                        android:layout_width="@dimen/_5pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_arrowleft_black_900"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft_black_900"/>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

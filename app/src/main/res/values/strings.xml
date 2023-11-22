@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">massivelogicliberators</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_11_38">11.38</string>
+  <string name="lbl_budi_hartanto">Budi Hartanto</string>
+  <string name="msg_berikan_dampak">Berikan dampak positif, berkontribusi  dalam Akademis</string>
+  <string name="lbl_11_37">11.37</string>
+  <string name="lbl_ketut_nyana">Ketut Nyana</string>
+  <string name="msg_masasiswa_uni">- Masasiswa Univ.
+- SMA Negeri</string>
+  <string name="lbl_masuk">Masuk</string>
+  <string name="lbl_dicki_fauzi">Dicki Fauzi</string>
+  <string name="lbl_budi_hartanto2"> Budi Hartanto
+</string>
+  <string name="msg_laporan_pembela">Laporan Pembelajaran</string>
+  <string name="msg_budi_hartanto_b2">Budi Hartanto
+Bahasa Inggris
+
+7/8</string>
+  <string name="msg_nama_ortu_sr">Nama Ortu  : Sri Irawati
+Subjek           : Teknologi Informasi dan Komputer
+
+Total Sesi  7/8
+
+</string>
+  <string name="msg_terima_kasih_te">Terima kasih telah melakukan rekrutmen, Rekrutmen Anda sedang dalam proses...</string>
+  <string name="lbl_upload_dokumen2">Upload Dokumen</string>
+  <string name="msg_upload_dokumen">*Upload Dokumen (mp4)</string>
+  <string name="msg_nama_ortu_bu">Nama Ortu  : Budi Hartanto
+Subjek           : Bahasa Inggris
+
+Total Sesi  7/8
+
+</string>
+  <string name="msg_sesi_berlangsun2">Sesi berlangsung telah anda konfirmasi !</string>
+  <string name="lbl_180_000">180.000</string>
+  <string name="msg_menunggu_konfir">Menunggu Konfirmasi</string>
+  <string name="lbl_masukkan_e_mail2">Masukkan E-mail</string>
+  <string name="msg_yey_berdasar">Yey..  Berdasarkan dokumen yang anda kirimkan, Anda kami nyatakan lolos...</string>
+  <string name="lbl_males">MaLes</string>
+  <string name="lbl_informasi_saya">Informasi Saya</string>
+  <string name="lbl_start">Start</string>
+  <string name="msg_terima_kasih_p">Terima Kasih, Pembayaran Anda berhasil diproses untuk bimbingan belajar dengan ...</string>
+  <string name="msg_rp_200_000_mont">Rp.200.000/Month</string>
+  <string name="lbl_rekrut">Rekrut</string>
+  <string name="lbl_lihat">Lihat</string>
+  <string name="msg_puspita_sari_de">Puspita Sari Dewi</string>
+  <string name="lbl_aktivitas">Aktivitas</string>
+  <string name="lbl_notifikasi">Notifikasi</string>
+  <string name="msg_lupa_kata_sandi">Lupa kata sandi?</string>
+  <string name="lbl_62_8137xxxx525">+62 8137xxxx525</string>
+  <string name="lbl_bahasa_inggris2"> Bahasa Inggris
+</string>
+  <string name="msg_sistem_kunjunga">Sistem Kunjungan/di tempat</string>
+  <string name="msg_daftar_guru_kam">Daftar Guru Kami</string>
+  <string name="lbl_ipas">IPAS</string>
+  <string name="msg_sudah_punya_aku">Sudah punya akun ? Masuk sekarang</string>
+  <string name="msg_kuota_anak_didi">Kuota Anak Didik : 2/5 </string>
+  <string name="msg_selamat_datang2">Selamat datang di </string>
+  <string name="msg_konfirmasi_kata">Konfirmasi Kata Sandi</string>
+  <string name="msg_belum_punya_aku">Belum punya akun ? Daftar sekarang</string>
+  <string name="lbl_password">Password</string>
+  <string name="msg_nama_guru_pus2">Nama Guru : Puspita Sari Dewi
+Subjek           : Teknologi Informasi dan Komputer
+
+Total Sesi  2/8
+
+</string>
+  <string name="msg_terima_kasih_a">Terima kasih, Anda telah memverifikasi kehadiran untuk sesi ke-7 pada kelas...</string>
+  <string name="msg_curriculum_vita">Curriculum Vitae</string>
+  <string name="msg_daftarkan_diri">Daftarkan diri Anda sekarang dan mari kita bersama-sama menciptakan perjalanan belajar yang inspiratif!</string>
+  <string name="lbl_tulis_pesan">Tulis Pesan...</string>
+  <string name="lbl_pendidikan">PENDIDIKAN</string>
+  <string name="lbl_radius">Radius</string>
+  <string name="msg_puspita_sari_de3">Puspita Sari Dewi
+</string>
+  <string name="msg_masukkan_nama_a">Masukkan Nama Anda</string>
+  <string name="msg_puspita_sari_de2">Puspita Sari Dewi
+Teknologi Informasi
+dan Komputer
+0/8</string>
+  <string name="lbl_fath_ya">Fath ya</string>
+  <string name="msg_bergabung_sejak">Bergabung sejak 31 November 2023</string>
+  <string name="lbl_nama_guru">Nama Guru</string>
+  <string name="lbl_chat">Chat</string>
+  <string name="lbl_4_5">4.5</string>
+  <string name="lbl_input_text">Input Text</string>
+  <string name="lbl_sri_irawati2"> Sri Irawati
+</string>
+  <string name="lbl_e_mail">E-mail</string>
+  <string name="msg_terima_kasih_a2">Terima kasih, Anda telah memverifikasi kehadiran untuk sesi ke-2 pada kelas...</string>
+  <string name="msg_terima_kasih_a3">Terima kasih, Anda telah memverifikasi kehadiran untuk sesi ke-1 pada kelas...</string>
+  <string name="lbl_tentang_guru">Tentang Guru</string>
+  <string name="lbl_nama_ortu">Nama Ortu  :</string>
+  <string name="msg_pembayaran_anda">Pembayaran anda berhasil
+Terima kasih telah menggunakan layanan...</string>
+  <string name="msg_sistem_bimbinga">Sistem Bimbingan</string>
+  <string name="msg_e_mail_nomor">E-mail / Nomor Telepon</string>
+  <string name="msg_nama_guru_subje">Nama Guru
+Subjek
+
+1/8</string>
+  <string name="lbl_submit">Submit</string>
+  <string name="lbl_asal_kampus">asal kampus</string>
+  <string name="msg_tempat_terbai">, tempat terbaik untuk menemukan guru les berkualitas yang sesuai dengan kebutuhan preferensi anda. Kami menyediakan platform yang memudahkan Anda menemukan apa yang anda butuhkan.</string>
+  <string name="msg_masuk_sebagai_g">Masuk Sebagai Guru</string>
+  <string name="lbl_harga_rp">Harga : Rp.</string>
+  <string name="msg_teknologi_infor">Teknologi Informasi
+dan Komputer
+</string>
+  <string name="msg_laporan_sesi_7">Laporan  sesi 7
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare ut diam ut eleifend. Nam.</string>
+  <string name="msg_laporan_sesi_6">Laporan  sesi 6
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare ut diam ut eleifend. Nam.</string>
+  <string name="msg_laporan_sesi_5">Laporan  sesi 5
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare ut diam ut eleifend. Nam.</string>
+  <string name="msg_jenjang_pendidi">Jenjang Pendidikan</string>
+  <string name="lbl_putu_wijaya">Putu Wijaya</string>
+  <string name="lbl_payment_details">Payment Details</string>
+  <string name="lbl_masukkan_email">Masukkan email</string>
+  <string name="lbl_konfirmasi">Konfirmasi</string>
+  <string name="msg_laporan_sesi_4">Laporan  sesi 4
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare ut diam ut eleifend. Nam.</string>
+  <string name="msg_laporan_sesi_3">Laporan  sesi 3
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare ut diam ut eleifend. Nam.</string>
+  <string name="msg_laporan_sesi_2">Laporan  sesi 2
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare ut diam ut eleifend. Nam.</string>
+  <string name="lbl_simpan">Simpan</string>
+  <string name="msg_lihat_lebih_lan2">Lihat lebih lanjut  </string>
+  <string name="msg_laporan_sesi_1">Laporan  sesi 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ornare ut diam ut eleifend. Nam.</string>
+  <string name="lbl_sd_kelas_1_6">SD kelas 1-6</string>
+  <string name="msg_selamat_permin">Selamat, Permintaan rekrutmen anda telah diterima, silahkan segera melakukan...</string>
+  <string name="lbl_lorem_ipsum">Lorem ipsum..</string>
+  <string name="lbl_tentang_anda">Tentang Anda</string>
+  <string name="lbl_14_17">14.17</string>
+  <string name="lbl_8_sesi">8 sesi</string>
+  <string name="msg_atau_masuk_deng">atau masuk dengan</string>
+  <string name="lbl_dicki_fauzi2">Dicki Fauzi
+</string>
+  <string name="msg_subjek_mata_pe2">Subjek (Mata pelajaran)</string>
+  <string name="msg_surat_aktif_kul">Surat Aktif Kuliah (mahasiswa)</string>
+  <string name="msg_perlu_konfirmas">Perlu Konfirmasi Anda !</string>
+  <string name="lbl_status">Status</string>
+  <string name="msg_menunggu_kon">-- Menunggu Konfirmasi --</string>
+  <string name="msg_selamat_datang">Selamat datang di MaLes, tempat terbaik untuk menemukan guru les berkualitas yang sesuai dengan kebutuhan preferensi anda. Kami menyediakan platform yang memudahkan Anda menemukan apa yang anda butuhkan.</string>
+  <string name="lbl_kata_sandi_anda">Kata Sandi Anda</string>
+  <string name="lbl_tik">TIK</string>
+  <string name="lbl_sarjana">sarjana</string>
+  <string name="lbl_jumlah_sesi">Jumlah sesi</string>
+  <string name="lbl_sudah">Sudah</string>
+  <string name="lbl_sri_irawati">Sri Irawati</string>
+  <string name="lbl_belum">Belum</string>
+  <string name="msg_service_fee">Service Fee                                                 Rp.2.500</string>
+  <string name="msg_pastikan_data3">..Pastikan data yang anda berikan benar. .. . ..</string>
+  <string name="msg_pastikan_data2">.Pastikan data yang anda berikan benar. .. . .</string>
+  <string name="lbl_bahasa_inggris">Bahasa Inggris</string>
+  <string name="lbl_upload_dokumen">*Upload Dokumen</string>
+  <string name="msg_matematika_dasa2">Matematika Dasar
+</string>
+  <string name="lbl2"> :</string>
+  <string name="msg_sri_irawati_tik">Sri Irawati
+TIK
+
+7/8</string>
+  <string name="msg_bq_puspita_sar">Bq. Puspita Sari Dewi</string>
+  <string name="lbl_total_sesi">
+Total Sesi  </string>
+  <string name="msg_kunjungan_di_t">Kunjungan/ di tempat</string>
+  <string name="lbl_be_a_teacher">Be a teacher</string>
+  <string name="msg_personal_brandi">Personal Branding</string>
+  <string name="msg_pembayaran_untu">Pembayaran untuk tawaran anda telah berhasil, selesaikan sesi untuk menerima...</string>
+  <string name="msg_lorem_ipsum_dol3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae quam venenatis</string>
+  <string name="msg_lorem_ipsum_dol2">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+  <string name="msg_total_payment">Total Payment                                       Rp.202.500</string>
+  <string name="msg_lorem_ipsum_dol6">Lorem ipsum dolor sit amet, consectetur..</string>
+  <string name="lbl_sd_kelas_4_6">SD kelas 4-6</string>
+  <string name="msg_lorem_ipsum_dol5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+  <string name="msg_lorem_ipsum_dol4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae quam venenatis, posuere sem sit amet, ullamcorper quam</string>
+  <string name="lbl_2_5">2/5 </string>
+  <string name="msg_subjek">Subjek           :</string>
+  <string name="msg_laporan_sesi_te">Laporan sesi terkirim, menunggu konfirmasi</string>
+  <string name="lbl_cari">Cari </string>
+  <string name="msg_sri_irawati_tik2">Sri Irawati
+TIK
+
+1/8</string>
+  <string name="lbl_200_000">200.000</string>
+  <string name="lbl_150_000">150.000</string>
+  <string name="msg_anda_mendapat_t">Anda mendapat tawaran baru untuk mengajar, segera lakukan konfirmasi untuk...</string>
+  <string name="msg_budi_hartanto_b">Budi Hartanto
+Bahasa Inggris
+
+1/8</string>
+  <string name="msg_daftar_menjadi">Daftar Menjadi Guru</string>
+  <string name="msg_teknologi_infor2">Teknologi Informasi dan Komputer</string>
+  <string name="msg_teknologi_infor3"> Teknologi Informasi dan Komputer
+</string>
+  <string name="msg_teknologi_infor4">Teknologi Informasi dan Komputer
+</string>
+  <string name="lbl_09_11">09.11</string>
+  <string name="lbl_cari_pesan">Cari Pesan...</string>
+  <string name="lbl_dokumen_anda">Dokumen anda</string>
+  <string name="lbl_pusat_bantuan">Pusat Bantuan</string>
+  <string name="lbl_payment_option">Payment Option</string>
+  <string name="msg_rp_200_000_8_s">Rp.200.000/ 8 sesi</string>
+  <string name="lbl_bank_transfer">Bank Transfer &gt;</string>
+  <string name="lbl_62_8137xxxx008">+62 8137xxxx008</string>
+  <string name="msg_chat_yang_belum">Chat yang Belum Dibaca</string>
+  <string name="lbl_daftar_akun">Daftar Akun</string>
+  <string name="msg_kelas_berlangsu">Kelas Berlangsung</string>
+  <string name="lbl_harga">Harga</string>
+  <string name="lbl_harga_per_bulan">Harga per Bulan</string>
+  <string name="msg_personal_brandi2">Personal Branding presentation (2-5 menit)</string>
+  <string name="lbl_09_21">09.21</string>
+  <string name="msg_nama_guru_pus">Nama Guru : Puspita Sari Dewi
+Subjek           : Teknologi Informasi dan Komputer
+
+Total Sesi  1/8
+
+</string>
+  <string name="lbl_punya_akun"> punya akun ? </string>
+  <string name="msg_lihat_lebih_lan">Lihat lebih lanjut  &gt;</string>
+  <string name="lbl_total_sesi2">Total Sesi  </string>
+  <string name="lbl_selamat_datang">Selamat datang</string>
+  <string name="msg_subtotal">Subtotal                                                  Rp.200.000</string>
+  <string name="msg_subjek_mata_pe">Subjek (Mata Pelejaran)</string>
+  <string name="lbl_total_payment">Total Payment                                       </string>
+  <string name="lbl_keluar">Keluar</string>
+  <string name="msg_pengaturan_meng">Pengaturan Mengajar</string>
+  <string name="msg_saya_merupakan">    Saya merupakan mahasiswa semester 7 dari salah satu universitas di NTB jurusan Sistem Informasi </string>
+  <string name="lbl_confirm">Confirm </string>
+  <string name="msg_prmh_alam_punca">PRMH Alam Puncak Raya Jln Bougenville No ZX-25, Sukapada, Bandung, Jawa Barat</string>
+  <string name="msg_sertifikat_pend">Sertifikat Pendukung</string>
+  <string name="lbl_total_sesi_2_8">Total Sesi  2/8
+</string>
+  <string name="msg_002_08182234700">002 081822347005</string>
+  <string name="msg_sesi_berlangsun">Sesi berlangsung telah dikonfirmasi !</string>
+  <string name="lbl_0_8">0/8</string>
+  <string name="lbl_rp_202_500">Rp.202.500</string>
+  <string name="lbl_about_us">About Us</string>
+  <string name="lbl_banyak_sesi2">Banyak Sesi :</string>
+  <string name="lbl_kata_sandi">Kata Sandi</string>
+  <string name="msg_pastikan_data">.Pastikan data yang anda berikan benar. .</string>
+  <string name="lbl_nama">Nama</string>
+  <string name="lbl_banyak_sesi">Banyak Sesi : </string>
+  <string name="msg_lorem_ipsum_dol">Lorem ipsum dolor sit amet, consectetur</string>
+  <string name="lbl_laporan_sesi_3">Laporan Sesi 3</string>
+  <string name="msg_jln_bumi_cender">Jln Bumi Cenderawasih No 123, Citarum, Bandung, Jawa Barat</string>
+  <string name="lbl">&gt;</string>
+  <string name="msg_terakhir_diliha">Terakhir Dilihat</string>
+  <string name="lbl_82">/8
+
+</string>
+  <string name="msg_pendidikan_tera">Pendidikan Terakhir</string>
+  <string name="lbl_83">/8
+</string>
+  <string name="msg_konfirmasi_kata2">Konfirmasi kata Sandi</string>
+  <string name="lbl_5">5</string>
+  <string name="lbl_nomor_telepon">Nomor Telepon</string>
+  <string name="msg_baik_dimengert">Baik, dimengerti pak</string>
+  <string name="lbl_7">7</string>
+  <string name="msg_setifikat_pendu">Setifikat Pendukung</string>
+  <string name="lbl_8">8</string>
+  <string name="msg_kuota_anak_didi2">Kuota Anak Didik : </string>
+  <string name="lbl_pilih_sebagai">Pilih Sebagai</string>
+  <string name="lbl_sd_kelas_5_6">SD kelas 5-6</string>
+  <string name="lbl_total_sesi_1_8">Total Sesi  1/8
+</string>
+  <string name="lbl_e_g_matematika">e.g. Matematika</string>
+  <string name="lbl_masuk_sekarang">Masuk sekarang</string>
+  <string name="msg_jumlah_sesi_per">Jumlah Sesi per Bulan</string>
+  <string name="msg_nama_guru_subje2">Nama Guru
+Subjek
+
+7/8</string>
+  <string name="lbl_daftar">Daftar</string>
+  <string name="msg_nama_guru_subje3">Nama Guru
+Subjek
+
+2/8</string>
+  <string name="lbl_alamat">Alamat</string>
+  <string name="msg_nama_guru_dic">Nama Guru : Dicki Fauzi
+Subjek           : Matematika Dasar
+
+Total Sesi  7/8
+
+</string>
+  <string name="msg_matematika_dasa">Matematika Dasar</string>
+  <string name="lbl_daftar_sekarang">Daftar sekarang</string>
+</resources>

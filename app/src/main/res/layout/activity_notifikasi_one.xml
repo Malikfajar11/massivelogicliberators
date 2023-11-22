@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="notifikasiOneVM" type="com.application.logicliberators.modules.notifikasione.data.viewmodel.NotifikasiOneVM"/>
+    </data>
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearNotifikasiOne"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_12pxv"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleindigo_A200">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnkelasberlangsu"
+            android:layout_height="0dp" android:layout_weight="1.0"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtKelasBerlangsu"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_18pxh"
+                android:layout_marginStart="@dimen/_18pxh"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{notifikasiOneVM.notifikasiOneModel.txtKelasBerlangsu}"
+                style="@style/txtPoppinsbold15_1" tools:text="@string/msg_kelas_berlangsu"/>
+            <HorizontalScrollView android:fillViewport="true"
+                android:gravity="end"
+                android:id="@+id/horizontalScrollHorizontalscrollfotoprofil"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_7pxv"
+                android:layout_width="match_parent" android:scrollbars="none">
+                <LinearLayout android:id="@+id/linearKelasBerlangsu"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" android:orientation="horizontal">
+                    <LinearLayout android:id="@+id/linearRowfotoprofil"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:orientation="horizontal" style="@style/groupStylegray_100_b2cornerRadius">
+                        <View
+                            android:background="@drawable/rectangle_bg_gray_300_radius_27_5"
+                            android:id="@+id/viewFotoprofil"
+                            android:layout_height="@dimen/_55pxh"
+                            android:layout_marginBottom="@dimen/_13pxv"
+                            android:layout_marginStart="@dimen/_25pxh"
+                            android:layout_marginTop="@dimen/_13pxv" android:layout_width="@dimen/_55pxh"/>
+                        <TextView android:id="@+id/txtNamaGuruSubje"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_4pxv"
+                            android:layout_marginEnd="@dimen/_25pxh"
+                            android:layout_marginStart="@dimen/_24pxh"
+                            android:layout_marginTop="@dimen/_5pxv"
+                            android:layout_weight="0.56"
+                            android:layout_width="0dp"
+                            android:text="@{notifikasiOneVM.notifikasiOneModel.txtNamaGuruSubje}"
+                            style="@style/txtPoppinssemibold12" tools:text="@string/msg_nama_guru_subje"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/linearRowfotoprofilOne"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_8pxh"
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:orientation="horizontal" style="@style/groupStylegray_100_b2cornerRadius">
+                        <View
+                            android:background="@drawable/rectangle_bg_gray_300_radius_27_5"
+                            android:id="@+id/viewFotoprofilOne"
+                            android:layout_height="@dimen/_55pxh"
+                            android:layout_marginBottom="@dimen/_13pxv"
+                            android:layout_marginStart="@dimen/_25pxh"
+                            android:layout_marginTop="@dimen/_13pxv" android:layout_width="@dimen/_55pxh"/>
+                        <TextView android:id="@+id/txtNamaGuruSubjeOne"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_4pxv"
+                            android:layout_marginEnd="@dimen/_25pxh"
+                            android:layout_marginStart="@dimen/_24pxh"
+                            android:layout_marginTop="@dimen/_5pxv"
+                            android:layout_weight="0.56"
+                            android:layout_width="0dp"
+                            android:text="@{notifikasiOneVM.notifikasiOneModel.txtNamaGuruSubjeOne}"
+                            style="@style/txtPoppinssemibold12" tools:text="@string/msg_nama_guru_subje2"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearColumnframesixteen"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20pxv"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylegray_105">
+                <Spinner
+                    android:background="@drawable/layer_list_bg_gray_100_d8_radius_5"
+                    android:gravity="start"
+                    android:id="@+id/spinnerFrameSixteen"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_18pxh"
+                    android:layout_marginStart="@dimen/_18pxh"
+                    android:layout_width="match_parent" tools:listitem="@layout/spinner_item"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearColumnselamatpermin"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_2pxv"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStyleindigo_100_72cornerRadius">
+                <TextView android:gravity="start"
+                    android:id="@+id/txtSelamatPermin"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_8pxv"
+                    android:layout_marginEnd="@dimen/_15pxh"
+                    android:layout_marginStart="@dimen/_15pxh"
+                    android:layout_marginTop="@dimen/_9pxv"
+                    android:layout_width="match_parent"
+                    android:text="@{notifikasiOneVM.notifikasiOneModel.txtSelamatPermin}"
+                    style="@style/txtPoppinsbold12" tools:text="@string/msg_selamat_permin"/>
+            </LinearLayout>
+            <FrameLayout android:id="@+id/frameStackterimakasihp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_110pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_316pxh">
+                <LinearLayout android:id="@+id/linearColumnterimakasihp"
+                    android:layout_gravity="top|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStylegray_105cornerRadius">
+                    <TextView android:gravity="center_horizontal"
+                        android:id="@+id/txtTerimaKasihP"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/_8pxv"
+                        android:layout_marginEnd="@dimen/_15pxh"
+                        android:layout_marginStart="@dimen/_15pxh"
+                        android:layout_marginTop="@dimen/_9pxv"
+                        android:layout_width="match_parent"
+                        android:text="@{notifikasiOneVM.notifikasiOneModel.txtTerimaKasihP}"
+                        style="@style/txtPoppinsbold12" tools:text="@string/msg_terima_kasih_p"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearColumnterimakasiha"
+                    android:layout_gravity="bottom|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical" style="@style/groupStylegray_105cornerRadius">
+                    <TextView android:gravity="start"
+                        android:id="@+id/txtTerimakasihA"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/_8pxv"
+                        android:layout_marginEnd="@dimen/_15pxh"
+                        android:layout_marginStart="@dimen/_15pxh"
+                        android:layout_marginTop="@dimen/_9pxv"
+                        android:layout_width="match_parent"
+                        android:text="@{notifikasiOneVM.notifikasiOneModel.txtTerimakasihA}"
+                        style="@style/txtPoppinsbold12" tools:text="@string/msg_terima_kasih_a"/>
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearColumnterimakasihte"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylegray_105cornerRadius">
+                <TextView android:gravity="start"
+                    android:id="@+id/txtTerimakasihte"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_8pxv"
+                    android:layout_marginEnd="@dimen/_15pxh"
+                    android:layout_marginStart="@dimen/_15pxh"
+                    android:layout_marginTop="@dimen/_9pxv"
+                    android:layout_width="match_parent"
+                    android:text="@{notifikasiOneVM.notifikasiOneModel.txtTerimakasihte}"
+                    style="@style/txtPoppinsbold12" tools:text="@string/msg_terima_kasih_te"/>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/frameBottombar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" style="@style/groupStyleindigo_1">
+            <LinearLayout android:id="@+id/linearRowhome"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_27pxv"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageHome"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_25pxh"
+                    android:layout_marginBottom="@dimen/_4pxv"
+                    android:layout_marginStart="@dimen/_25pxh"
+                    android:layout_marginTop="@dimen/_3pxv"
+                    android:layout_width="@dimen/_27pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_home_black_900"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_home_black_900"/>
+                <ImageView android:id="@+id/imageRefresh"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_27pxh"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_marginStart="@dimen/_61pxh"
+                    android:layout_marginTop="@dimen/_2pxv"
+                    android:layout_width="@dimen/_27pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_refresh"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_refresh"/>
+                <FrameLayout android:id="@+id/frameMdipushnotifi"
+                    android:layout_height="@dimen/_33pxv"
+                    android:layout_width="@dimen/_33pxh" style="@style/groupStyleindigo_2">
+                    <ImageView android:id="@+id/imageVideocamera"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_27pxh"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_width="@dimen/_27pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_videocamera"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_videocamera"/>
+                </FrameLayout>
+                <ImageView android:id="@+id/imageUser"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/_22pxh"
+                    android:layout_marginBottom="@dimen/_5pxv"
+                    android:layout_marginEnd="@dimen/_28pxh"
+                    android:layout_marginStart="@dimen/_61pxh"
+                    android:layout_marginTop="@dimen/_5pxv"
+                    android:layout_width="@dimen/_22pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_user"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_user"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>
